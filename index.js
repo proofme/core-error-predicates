@@ -62,7 +62,7 @@ addError("FileSystemError", "EBUSY", "ENOENT", "EOF", "EACCES", "EAGAIN",
                             "ENAMETOOLONG", "EPERM", "ELOOP", "ENOTEMPTY",
                             "ENOSPC", "EIO", "EROFS", "ENODEV", "ESPIPE",
                             "ECANCELED", "ENFILE", "EXDEV");
-addError("ConnectError", "ECONNABORTED", "ECONNREFUSED", "ECONNRESET", "ETIMEDOUT");
+addError("ConnectError", "ECONNABORTED", "ECONNREFUSED", "ECONNRESET", "ETIMEDOUT", "ESOCKETTIMEDOUT" );
 addError("BindError", "EADDRNOTAVAIL");
 addError("AddressNotFoundError", "ENOTFOUND");
 addError("NetworkError", "EADDRINFO", "EADDRNOTAVAIL", "EAFNOSUPPORT",
